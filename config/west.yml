@@ -12,12 +12,6 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-
-      # device and drivenr modules
-    - name: zmk-keyboard-totem
-      revision: main
-      remote: BildermanKawasaki 
-
       # urob modules
     - name: zmk-adaptive-key
       remote: urob
