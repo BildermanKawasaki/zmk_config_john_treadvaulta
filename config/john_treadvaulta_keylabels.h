@@ -1,11 +1,11 @@
 /*                              36 KEY MATRIX / LAYOUT MAPPING
 
-  ╭────────────────────────────────────────────╮ ╭────────────────────────────────────────────╮
-  │  0   1   2   3   4   5   6   7   8   9  10 │ │ LT4 LT3 LT2 LT1 LT0 CT RT0 RT1 RT2 RT3 RT4 │
-  │   11  12  13  14  15   16  17  18  19  20  │ │  LM4 LM3 LM2 LM1 LM0  RM0 RM1 RM2 RM3 RM4 │
-  │ 21  22  23  24  25  26  27  28  29  30  31 │ │ LB4 LB3 LB2 LB1 LB0 CB RB0 RB1 RB2 RB3 RB4 │
-  ╰─────╮ 32       33        34       35 ╭─────╯ ╰─────╮ LH1      LH0      RH0      RH1 ╭─────╯
-        ╰────────────────────────────────╯             ╰────────────────────────────────╯             */
+  ╭────────────────────────────────────────────╮ ╭─────────────────────────────────────────────╮
+  │  0   1   2   3   4   5   6   7   8   9  10 │ │ LT4 LT3 LT2 LT1 LT0 LTC RT0 RT1 RT2 RT3 RT4 │
+  │   11  12  13  14  15   16  17  18  19  20  │ │  LM4 LM3 LM2 LM1 LM0   RM0 RM1 RM2 RM3 RM4 │
+  │ 21  22  23  24  25  26  27  28  29  30  31 │ │ LB4 LB3 LB2 LB1 LB0 LBC RB0 RB1 RB2 RB3 RB4 │
+  ╰─────╮ 32       33        34       35 ╭─────╯ ╰─────╮ LH1      LH0       RH0      RH1 ╭─────╯
+        ╰────────────────────────────────╯             ╰─────────────────────────────────╯             */
 
 #pragma once
 
@@ -15,7 +15,7 @@
 #define LT3  1
 #define LT4  0
 
-#define CT   5   // center-top rowo
+#define LTC  5   // center-top rowo
 
 #define RT0  6  // right-top row
 #define RT1  7
@@ -41,7 +41,7 @@
 #define LB3 22
 #define LB4 21
 
-#define CB 26   // center-bottom row
+#define LBC 26   // center-bottom row
 
 #define RB0 27  // right-bottom row
 #define RB1 28
@@ -55,8 +55,7 @@
 #define RH0 34  // right thumb keys
 #define RH1 35
 
-#define KEYS_L LT0 LT1 LT2 LT3 LT4 LM0 LM1 LM2 LM3 LM4 LB0 LB1 LB2 LB3 LB4 
-#define KEYS_C CT CB
+#define KEYS_L LT0 LT1 LT2 LT3 LT4 LTCLM0 LM1 LM2 LM3 LM4 LB0 LB1 LB2 LB3 LB4 LBC 
 #define KEYS_R RT0 RT1 RT2 RT3 RT4 RM0 RM1 RM2 RM3 RM4 RB0 RB1 RB2 RB3 RB4
 #define THUMBS_L LH0 LH1 
 #define THUMBS_R RH0 RH1 
