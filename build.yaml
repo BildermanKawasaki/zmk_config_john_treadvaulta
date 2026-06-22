@@ -20,7 +20,7 @@
 ---
 include:
 
-  - board: adafruit_kb2040
+  - board: rpi_pico
     shield: john_treadvaulta
 
 ## To build with ZMK Studio support, uncomment the following block
@@ -32,6 +32,6 @@ include:
 #    cmake-args: -DCONFIG_ZMK_STUDIO=y
 #    artifact-name: john_treadvaulta_with_studio
 
-  - board: adafruit_kb2040
+  - board: rpi_pico
     shield: settings_reset
   
