@@ -1,0 +1,46 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout_john_treadvaulta: physical_layout_john_treadvaulta {
+        compatible = "zmk,physical-layout";
+        display-name = "John Treadvaulta";
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100    0    0       0     0     0>
+            , <&key_physical_attrs 100 100  100    0       0   100     0>
+            , <&key_physical_attrs 100 100  200    0       0   200     0>
+            , <&key_physical_attrs 100 100  300    0       0   300     0>
+            , <&key_physical_attrs 100 100  400    0       0   400     0>
+            , <&key_physical_attrs 100 100  500    0       0   500     0>
+            , <&key_physical_attrs 100 100  600    0       0   600     0>
+            , <&key_physical_attrs 100 100  700    0       0   700     0>
+            , <&key_physical_attrs 100 100  800    0       0   800     0>
+            , <&key_physical_attrs 100 100  900    0       0   900     0>
+            , <&key_physical_attrs 100 100 1000    0       0  1000     0>
+            , <&key_physical_attrs 125 100    0  100       0     0   100>
+            , <&key_physical_attrs 100 100  125  100       0   125   100>
+            , <&key_physical_attrs 100 100  225  100       0   225   100>
+            , <&key_physical_attrs 100 100  325  100       0   325   100>
+            , <&key_physical_attrs 100 100  425  100       0   425   100>
+            , <&key_physical_attrs 100 100  575  100       0   575   100>
+            , <&key_physical_attrs 100 100  675  100       0   675   100>
+            , <&key_physical_attrs 100 100  775  100       0   775   100>
+            , <&key_physical_attrs 100 100  875  100       0   875   100>
+            , <&key_physical_attrs 100 100  975  100       0   975   100>
+            , <&key_physical_attrs 100 100    0  200       0     0   200>
+            , <&key_physical_attrs 100 100  100  200       0   100   200>
+            , <&key_physical_attrs 100 100  200  200       0   200   200>
+            , <&key_physical_attrs 100 100  300  200       0   300   200>
+            , <&key_physical_attrs 100 100  400  200       0   400   200>
+            , <&key_physical_attrs 100 100  500  200       0   500   200>
+            , <&key_physical_attrs 100 100  600  200       0   600   200>
+            , <&key_physical_attrs 100 100  700  200       0   700   200>
+            , <&key_physical_attrs 100 100  800  200       0   800   200>
+            , <&key_physical_attrs 100 100  900  200       0   900   200>
+            , <&key_physical_attrs 100 100 1000  200       0  1000   200>
+            , <&key_physical_attrs 100 100  150  300       0   150   300>
+            , <&key_physical_attrs 300 100  250  300       0   250   300>
+            , <&key_physical_attrs 300 100  550  300       0   550   300>
+            , <&key_physical_attrs 100 100  850  300       0   850   300>
+            ;
+    };
+};

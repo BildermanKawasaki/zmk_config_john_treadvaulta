@@ -1,0 +1,2 @@
+config SHIELD_JOHN_TREADVAULTA
+    def_bool $(shields_list_contains,john_treadvaulta)
