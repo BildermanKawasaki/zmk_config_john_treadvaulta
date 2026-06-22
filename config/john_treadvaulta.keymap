@@ -103,13 +103,6 @@ ZMK_ADAPTIVE_KEY(
   /delete-property/ ignore-modifiers;
 };
 
-// Tap: NUM-word | double-tap: sticky NUM-layer | Hold: NUM-layer.
-#define SMART_NUM &smart_num NS 0
-ZMK_HOLD_TAP(smart_num, bindings = <&mo>, <&num_dance>; flavor = "balanced";
-             tapping-term-ms = <200>; quick-tap-ms = <QUICK_TAP_MS>;)
-ZMK_TAP_DANCE(num_dance, bindings = <&num_word NS>, <&sl NS>;
-              tapping-term-ms = <200>;)
-
 /* Custom behaviors */
 
 // Alt+Tab swapper, requires tri-state module.
